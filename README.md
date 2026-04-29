@@ -1,99 +1,115 @@
-# Sofia’s Bookstore Event Manager
+# Sofia's Bookstore Event Manager
 
-## Project Overview
+A Python console application for managing bookstore events, event details, and attendee information.
 
-Sofia’s Bookstore Event Manager is a Python console application designed to manage bookstore events such as book clubs, author signings, and sales. The system replaces manual tracking with a structured digital solution.
+## Project Description
 
-The program allows users to:
+Sofia's Bookstore Event Manager is a menu-driven Python program designed to replace manual event tracking with a simple digital system. It supports common event-management tasks such as adding events, viewing details, updating information, deleting records, and tracking attendees.
 
-- Add new events
-- View existing events
-- Update event details
-- Delete events
-- Add attendees
-
----
-
-## Features
-
-- Menu-driven interface
-- Unique Event ID validation
-- Event management (Create, Read, Update, Delete)
-- Attendee tracking
-- Input validation with error handling
-
----
+This project demonstrates Python fundamentals, CRUD logic, structured data, input validation, and clear command-line interaction.
 
 ## Technologies Used
 
 - Python 3
-- Lists
-- Dictionaries
+- Lists and dictionaries
 - Functions
-- Loops
-- Exception Handling (try/except)
+- Loops and conditionals
+- Exception handling
+- Command-line interface
 
----
+## Features
+
+- Add new bookstore events
+- View all events
+- Search or review event details
+- Update event name, type, date, time, or attendee information
+- Delete events
+- Add attendees to events
+- Validate user input to reduce errors
+- Store event records using dictionaries inside a list
 
 ## Event Data Structure
 
-Each event is stored as a dictionary inside a list called **events_list**.
+Each event is stored as a dictionary inside a list.
 
 Example:
 
-ID: 101  
-Name: Author Signing  
-Type: Signing  
-Date: 2026-03-10  
-Time: 15:00  
-Attendees: Alice, Bob  
+```text
+ID: 101
+Name: Author Signing
+Type: Signing
+Date: 2026-03-10
+Time: 15:00
+Attendees: Sofia, Alex, Jordan
+```
 
----
+## Project Structure
 
-## Program Menu
+```text
+Sofia-s-Bookstore-Event-Manager/
++-- event_manager.py
++-- README.md
+```
 
-1. Add Event  
-2. View Events  
-3. Update Event  
-4. Delete Event  
-5. Add Attendee  
-6. Exit  
+## Installation and Setup
 
----
+1. Clone the repository:
 
-## Functions Included
+```bash
+git clone https://github.com/khalidshams-tech/Sofia-s-Bookstore-Event-Manager.git
+```
 
-- add_event(events_list)
-- view_events(events_list)
-- update_event(events_list)
-- delete_event(events_list)
-- add_attendee(events_list)
+2. Open the project folder:
 
----
+```bash
+cd Sofia-s-Bookstore-Event-Manager
+```
 
-## How to Run the Program
+3. Run the program:
 
-1. Install Python 3
-2. Clone the repository
-3. Navigate to the project folder
-4. Run:
-
+```bash
 python event_manager.py
+```
 
----
+On macOS/Linux, you may need:
 
-## Learning Objectives
+```bash
+python3 event_manager.py
+```
 
-- Use variables and data types
-- Manage data using lists and dictionaries
-- Organize code with functions
-- Input validation and error handling
-- Menu-driven program design
+## Screenshots
 
----
+Add screenshots here showing:
 
-## Author
+- Main menu
+- Add event workflow
+- View events output
+- Update or delete event workflow
 
-Mohammad Khalid Shams  
-IT / Cybersecurity Student  
-North Seattle College
+Example:
+
+```markdown
+![Bookstore Event Manager menu](screenshots/bookstore-menu.png)
+```
+
+## What I Learned
+
+- How to design a menu-driven Python application
+- How to use lists and dictionaries to store structured records
+- How to write functions for separate tasks
+- How to validate user input and handle errors
+- How CRUD operations work in a simple application
+- How to document a command-line project for GitHub
+
+## Future Improvements
+
+- Save events to a file so data remains after the program closes
+- Add search by event ID, type, or date
+- Add automated tests for event actions
+- Add screenshots or a terminal demo
+- Convert the console app into a Flask web app
+- Rename the repository to a shorter name such as `bookstore-event-manager`
+
+## Status
+
+Active Python learning project. Good portfolio value after screenshots and persistent file storage are added.
