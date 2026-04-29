@@ -1,10 +1,10 @@
-# Sofia's Bookstore Event Manager
+# Bookstore Event Manager
 
 A Python console application for managing bookstore events, event details, and attendee information.
 
 ## Project Description
 
-Sofia's Bookstore Event Manager is a menu-driven Python program designed to replace manual event tracking with a simple digital system. It supports common event-management tasks such as adding events, viewing details, updating information, deleting records, and tracking attendees.
+Bookstore Event Manager is a menu-driven Python program designed to replace manual event tracking with a simple digital system. It supports common event-management tasks such as adding events, viewing details, updating information, deleting records, and tracking attendees.
 
 This project demonstrates Python fundamentals, CRUD logic, structured data, input validation, and clear command-line interaction.
 
@@ -46,7 +46,7 @@ Attendees: Sofia, Alex, Jordan
 ## Project Structure
 
 ```text
-Sofia-s-Bookstore-Event-Manager/
+bookstore-event-manager/
 +-- event_manager.py
 +-- README.md
 ```
@@ -56,13 +56,13 @@ Sofia-s-Bookstore-Event-Manager/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/khalidshams-tech/Sofia-s-Bookstore-Event-Manager.git
+git clone https://github.com/khalidshams-tech/bookstore-event-manager.git
 ```
 
 2. Open the project folder:
 
 ```bash
-cd Sofia-s-Bookstore-Event-Manager
+cd bookstore-event-manager
 ```
 
 3. Run the program:
@@ -108,7 +108,6 @@ Example:
 - Add automated tests for event actions
 - Add screenshots or a terminal demo
 - Convert the console app into a Flask web app
-- Rename the repository to a shorter name such as `bookstore-event-manager`
 
 ## Status
 
